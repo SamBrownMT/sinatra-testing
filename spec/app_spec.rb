@@ -25,4 +25,9 @@ describe 'app' do
 		expect(last_response.body).to include('Hi Sonic, how are you today?')
 	end
 
+	it 'responds correctly to no name given' do 
+		get '/'
+		expect(last_response.body).to_not include(',')
+	end
+
 end
