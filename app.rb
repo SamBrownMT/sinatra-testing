@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/' do 
-	'Hi'
+get '/:name?' do |name|
+	erb :home , :locals => {:name => name}
 end

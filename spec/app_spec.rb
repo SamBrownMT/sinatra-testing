@@ -20,4 +20,9 @@ describe 'app' do
 		expect(last_response.body).to include('Hi')
 	end
 
+	it 'responds correctly to Sonic' do 
+		get '/Sonic'
+		expect(last_response.body).to include('Hi Sonic, how are you today?')
+	end
+
 end
