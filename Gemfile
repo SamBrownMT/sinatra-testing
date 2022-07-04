@@ -12,4 +12,4 @@ gem "sinatra", "~> 2.2"
 
 gem "rack-test", "~> 2.0"
 
-ruby '2.6.8p205'
+ruby '2.6.8'
