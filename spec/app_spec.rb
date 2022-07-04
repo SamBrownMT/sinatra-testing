@@ -30,4 +30,9 @@ describe 'app' do
 		expect(last_response.body).to_not include(',')
 	end
 
+	xit 'displays image' do 
+		get '/image'
+		expect(last_response).to include('img')
+	end
+
 end
