@@ -12,4 +12,6 @@ gem "sinatra", "~> 2.2"
 
 gem "rack-test", "~> 2.0"
 
+gem "rspec_junit_formatter"
+
 ruby '2.6.8'
